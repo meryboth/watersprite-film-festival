@@ -1,0 +1,527 @@
+/* colors */
+/* fonts */
+/* seteos generales */
+* {
+  margin: 0;
+  padding: 0; }
+  * body h1,
+  * body h2,
+  * body h3,
+  * body h4,
+  * body h5,
+  * body h6 {
+    font-family: "Paytone One", sans-serif; }
+  * body p {
+    font-family: "Raleway", sans-serif; }
+  * body a {
+    font-family: "Raleway", sans-serif; }
+
+/* imports */
+header {
+  background-image: url("https://i.postimg.cc/V673M4Dn/watersrprite-festival-background-effect.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 100%; }
+  header #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background-color: white;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%; }
+    header #top img {
+      width: 13rem; }
+    header #top .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      header #top .menu li {
+        padding: 1.5rem;
+        list-style: none; }
+        header #top .menu li .menu__link {
+          color: black;
+          text-decoration: none;
+          padding: 0.5rem 0.9rem; }
+          header #top .menu li .menu__link:hover {
+            background-color: #ff8ec2;
+            color: white; }
+        header #top .menu li i {
+          font-size: 1.5rem;
+          color: black; }
+          header #top .menu li i:hover {
+            color: cyan; }
+  header .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 23rem 10rem 23rem 10rem;
+    color: white; }
+    header .title .title__box {
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      header .title .title__box h1 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        letter-spacing: 2px;
+        color: white;
+        text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5); }
+      header .title .title__box h2 {
+        font-family: "Raleway", sans-serif;
+        margin: 0.5rem 0rem 1rem 0rem; }
+      header .title .title__box button {
+        display: block;
+        margin: 0 auto;
+        line-height: 2rem;
+        margin: 0.5rem;
+        background: #ff8ec2;
+        letter-spacing: 2px;
+        transition: .2s all ease-in-out;
+        outline: none;
+        border: 1px solid black;
+        box-shadow: 3px 3px 1px #91fffe, 3px 3px 1px 1px black; }
+        header .title .title__box button:hover {
+          background-color: #03c4b1; }
+        header .title .title__box button a {
+          color: white;
+          padding: 60px 45px;
+          text-decoration: none;
+          font-weight: bold; }
+
+/* variables */
+/* mixins */
+main {
+  /* MEMBERSHIPS */
+  /* GROWTH */
+  /* DIRECTORS */
+  /* CONTACT */
+  /* MOVIES */
+  /* INTERNATIONAL */
+  /* INTERNATIONAL */ }
+  main #intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 15rem 5rem 15rem;
+    box-sizing: border-box; }
+    main #intro .intro__about {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      main #intro .intro__about .intro__about-title {
+        padding-right: 2rem; }
+        main #intro .intro__about .intro__about-title h2 {
+          font-weight: 400;
+          color: #636e72;
+          text-align: right;
+          font-family: "Raleway", sans-serif;
+          font-size: 1.3rem; }
+        main #intro .intro__about .intro__about-title h3 {
+          text-align: right;
+          font-size: 2rem;
+          margin-bottom: 3rem; }
+        main #intro .intro__about .intro__about-title p {
+          font-weight: 400;
+          color: #636e72;
+          text-align: right;
+          font-family: "Raleway", sans-serif; }
+      main #intro .intro__about img {
+        width: 45rem; }
+    main #intro .intro__cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+      justify-content: space-between; }
+      main #intro .intro__cards .intro__cards-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 2rem 4rem 2rem; }
+        main #intro .intro__cards .intro__cards-icons i {
+          font-size: 4rem;
+          color: #ffca1c;
+          margin-top: 1rem; }
+        main #intro .intro__cards .intro__cards-icons h3 {
+          text-align: center;
+          margin-top: 1rem; }
+        main #intro .intro__cards .intro__cards-icons p {
+          text-align: center;
+          margin-top: 0.5rem; }
+  main #memberships {
+    background-color: #f5f5f5;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main #memberships .memberships__title {
+      text-align: center;
+      margin-top: 3rem; }
+    main #memberships .memberships__options {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1rem;
+      margin-bottom: 2rem; }
+      main #memberships .memberships__options .memberships__options-tickets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: gray 1px solid;
+        margin: 1rem 1rem 1rem 1rem;
+        width: 19rem;
+        padding: 2rem 2rem 2rem 2rem;
+        border-radius: 0.3rem;
+        min-height: 16rem; }
+        main #memberships .memberships__options .memberships__options-tickets i {
+          font-size: 2rem;
+          color: #ffca1c; }
+        main #memberships .memberships__options .memberships__options-tickets h4 {
+          font-size: 1.5rem;
+          text-transform: uppercase;
+          border-bottom: 1px black solid;
+          text-align: center; }
+        main #memberships .memberships__options .memberships__options-tickets p {
+          margin-top: 1rem;
+          margin-bottom: 1rem; }
+        main #memberships .memberships__options .memberships__options-tickets li {
+          font-family: "Raleway", sans-serif;
+          list-style-type: none; }
+        main #memberships .memberships__options .memberships__options-tickets button {
+          width: 100%;
+          display: block;
+          margin: 0 auto;
+          line-height: 2rem;
+          margin: 0.5rem;
+          background: #ffca1c;
+          letter-spacing: 2px;
+          transition: .2s all ease-in-out;
+          cursor: pointer;
+          outline: none;
+          border: 1px solid black;
+          box-shadow: 3px 3px 1px #91fffe, 3px 3px 1px 1px black; }
+          main #memberships .memberships__options .memberships__options-tickets button:hover {
+            background-color: #03c4b1; }
+          main #memberships .memberships__options .memberships__options-tickets button a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-family: "Raleway", sans-serif;
+            font-weight: bold; }
+  main #growth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    main #growth .text {
+      width: 50%;
+      padding-right: 18rem;
+      padding-left: 2rem; }
+      main #growth .text h4 {
+        margin-bottom: 2rem; }
+    main #growth h4 {
+      font-size: 1.5rem;
+      text-align: right;
+      font-size: 2rem;
+      margin-bottom: 3rem;
+      text-align: left; }
+    main #growth img {
+      width: 50%; }
+  main #cinema-signage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    main #cinema-signage .text {
+      width: 50%;
+      padding-right: 2rem;
+      padding-left: 18rem; }
+      main #cinema-signage .text h4 {
+        margin-bottom: 2rem; }
+    main #cinema-signage h4 {
+      font-size: 1.5rem;
+      text-align: right;
+      font-size: 2rem;
+      margin-bottom: 3rem;
+      text-align: right; }
+    main #cinema-signage p {
+      text-align: right; }
+    main #cinema-signage img {
+      width: 50%; }
+  main #directors {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main #directors .directors__title {
+      margin-top: 5rem; }
+      main #directors .directors__title h5 {
+        text-align: center;
+        font-size: 1.5rem; }
+    main #directors .directors__profiles {
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between; }
+      main #directors .directors__profiles .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+        width: 15rem;
+        padding: 2rem 1.5rem 2rem 1.5rem;
+        border-radius: 0.3rem; }
+        main #directors .directors__profiles .profile img {
+          width: 12rem;
+          border-radius: 100%; }
+        main #directors .directors__profiles .profile h6 {
+          font-size: 1rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem; }
+        main #directors .directors__profiles .profile p {
+          text-align: center; }
+  main #form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffca1c;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%; }
+    main #form .form__text {
+      padding-right: 3rem;
+      max-width: 25%; }
+      main #form .form__text p {
+        text-align: right; }
+      main #form .form__text h5 {
+        font-weight: 400;
+        color: #636e72;
+        text-align: right;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.3rem; }
+      main #form .form__text h6 {
+        text-align: right;
+        text-align: right;
+        font-size: 2rem;
+        margin-bottom: 3rem; }
+    main #form .form__subscribe {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #f5f5f5;
+      padding: 50px 100px;
+      border: 2px solid black;
+      box-shadow: 15px 15px 1px #91fffe, 15px 15px 1px 2px black; }
+      main #form .form__subscribe form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main #form .form__subscribe form input {
+          display: block;
+          width: 100%;
+          font-size: 1rem;
+          line-height: 2rem;
+          margin-bottom: 4rem;
+          border: none;
+          border-bottom: 5px solid black;
+          background: #f8f4e5;
+          min-width: 250px;
+          padding-left: 5px;
+          outline: none;
+          color: black; }
+          main #form .form__subscribe form input:focus {
+            border-bottom: 5px solid #03c4b1; }
+        main #form .form__subscribe form button {
+          display: block;
+          margin: 0 auto;
+          line-height: 2rem;
+          padding: 0 20px;
+          background: #ffca1c;
+          letter-spacing: 2px;
+          transition: .2s all ease-in-out;
+          outline: none;
+          border: 1px solid black;
+          box-shadow: 3px 3px 1px #91fffe, 3px 3px 1px 1px black; }
+          main #form .form__subscribe form button:hover {
+            background: #03c4b1;
+            cursor: pointer;
+            color: white;
+            border: 1px solid black; }
+            main #form .form__subscribe form button:hover::selection {
+              background: #ffc8ff; }
+  main #movies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main #movies .movies__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem; }
+      main #movies .movies__text h6 {
+        text-align: center;
+        font-size: 1.5rem; }
+    main #movies .movies_genders {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+      margin-top: 1.5rem; }
+      main #movies .movies_genders li {
+        list-style: none; }
+        main #movies .movies_genders li a {
+          display: block;
+          margin: 0 auto;
+          line-height: 2rem;
+          margin: 0.5rem;
+          padding: 0 20px;
+          background: #ff8ec2;
+          letter-spacing: 2px;
+          transition: .2s all ease-in-out;
+          outline: none;
+          border: 1px solid black;
+          box-shadow: 3px 3px 1px #91fffe, 3px 3px 1px 1px black; }
+          main #movies .movies_genders li a:hover {
+            background: #03c4b1;
+            cursor: pointer;
+            color: white;
+            border: 1px solid black; }
+            main #movies .movies_genders li a:hover::selection {
+              background: #ffc8ff; }
+    main #movies .movies__catalogue {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 0.5rem;
+      margin-bottom: 5rem; }
+      main #movies .movies__catalogue img {
+        object-fit: cover;
+        overflow: hidden;
+        width: 250px;
+        height: 250px; }
+  main #international {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 5rem 15rem 5rem 15rem; }
+    main #international img {
+      width: 38rem;
+      border: 2px solid black;
+      box-shadow: 15px 15px 1px #91fffe, 15px 15px 1px 2px black; }
+    main #international .international__text {
+      margin-left: 4rem;
+      width: 30rem; }
+      main #international .international__text h5 {
+        font-weight: 400;
+        color: #636e72;
+        text-align: right;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.3rem;
+        text-align: left; }
+      main #international .international__text h6 {
+        text-align: right;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        text-align: left; }
+      main #international .international__text p {
+        margin-bottom: 0.5rem; }
+  main #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 15rem 5rem 15rem;
+    padding-bottom: 2rem; }
+    main #contact .contact__location {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+    main #contact h6 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 1rem 0rem 0.5rem 0rem; }
+    main #contact p {
+      text-align: center;
+      margin-top: 0.5;
+      margin-bottom: 2rem; }
+    main #contact i {
+      margin-top: 0.5;
+      margin-bottom: 2rem;
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      color: #ff8ec2; }
+    main #contact .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      main #contact .social i {
+        color: #ff8ec2;
+        font-size: 2rem;
+        padding: 1rem; }
+        main #contact .social i:hover {
+          color: #91fffe;
+          cursor: pointer; }
+
+/* variables */
+/* mixins */
+#footer {
+  background-color: #ffca1c;
+  padding: 5rem 15rem 5rem 15rem;
+  padding-bottom: 1.5rem; }
+  #footer .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start; }
+    #footer .top .footer__about-us {
+      width: 35%; }
+      #footer .top .footer__about-us h6 {
+        font-size: 1.5rem;
+        margin-bottom: 0.8rem; }
+    #footer .top ul li {
+      padding-top: 0.5rem;
+      list-style: none; }
+    #footer .top ul h6 {
+      font-size: 1.5rem; }
+  #footer .footer__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 4rem; }
+    #footer .footer__copyright p {
+      text-align: center;
+      margin-top: 0.5rem; }

@@ -1,0 +1,109 @@
+header {
+  background-image: url("https://i.postimg.cc/V673M4Dn/watersrprite-festival-background-effect.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 100%;
+
+  #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    background-color: white;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+
+    img {
+      width: 13rem;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        padding: 1.5rem;
+        list-style: none;
+
+        .menu__link {
+          color: black;
+          text-decoration: none;
+          padding: 0.5rem 0.9rem;
+
+          &:hover {
+            background-color: $pink;
+            color: white;
+          }
+        }
+
+        i {
+          font-size: 1.5rem;
+          color: black;
+
+          &:hover {
+            color: cyan;
+          }
+        }
+      }
+    }
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 23rem 10rem 23rem 10rem;
+    color: white;
+
+    .title__box {
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        text-transform: uppercase;
+        font-size: 3rem;
+        letter-spacing: 2px;
+        color: white;
+        text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.5);
+      }
+
+      h2 {
+        font-family: $p-font;
+        margin: 0.5rem 0rem 1rem 0rem;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        line-height: 2rem;
+        margin: 0.5rem;
+        background: $pink;
+        letter-spacing: 2px;
+        transition: .2s all ease-in-out;
+        outline: none;
+        border: 1px solid black;
+        box-shadow: 3px 3px 1px $cyan, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+
+        &:hover {
+          background-color: $green;
+        }
+
+        a {
+          color: white;
+          padding: 60px 45px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
